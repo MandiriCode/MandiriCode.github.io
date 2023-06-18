@@ -46,7 +46,7 @@ img {
 @media (max-width: 740px) {
     img {
         padding-bottom: 10px;
-        width: 400px;
+        width: 350px;
     }
     .imgd h3 {
         text-align: center;
