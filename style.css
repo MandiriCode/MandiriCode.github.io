@@ -14,12 +14,25 @@ body {
     color: #333;
 }
 
-.imgd {
-    margin: 100px;
-    padding-bottom: 200px;
+img {
+    align-content: center;
 }
+
+.imgd {
+    margin: auto;
+    padding-bottom: 80px;
+    margin:0 19px 4px 0;
+}
+
 .imgd p {
     font-size: 20px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.imgd h3 {
+    text-align: center;
 }
 
 /* Container styles */
@@ -31,9 +44,9 @@ body {
 }
 
 @media (max-width: 740px) {
-    .imgd img {
-        padding-bottom: 50px;
-        width: 225px;
+    img {
+        padding-bottom: 10px;
+        width: 400px;
     }
     .imgd h3 {
         text-align: center;
@@ -41,7 +54,11 @@ body {
 
     .imgd p {
         text-align: center;
-        font-size: 20px;;
+        font-size: 16px;;
+    }
+
+    .tiga{
+        display: none;
     }
 }
 
